@@ -6,6 +6,11 @@
   outline-offset: 3px;
 }
 
+ul{
+  list-style: none;
+  display: flex;
+}
+
 a{
   text-decoration: none;
 }
@@ -14,8 +19,8 @@ a{
 body{
   padding: 0;
   margin: 0;
-  font-family: "open-sans-condensed", "Arial", sans-serif;
-  font-size: 36px;
+  font-family: "open sans-condensed", "Arial", sans-serif;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.5px;
@@ -30,4 +35,230 @@ body{
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.site-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-text h2{
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #DE2E54;
+  opacity: 0.6;
+}
+
+.sitenav-link{
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #222222;
+  margin-left: 32px;
+}
+
+.active{
+  color: #DE2E54;
+  opacity: 0.6;
+}
+
+.main-link{
+  width: 189px;
+  height: 47px;
+  background: #DE2E54;
+  opacity: 0.6;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero{
+  background-color: #0EB4C1;
+  margin-bottom: 120px;
+}
+
+.hero-content{
+  width: 500px;
+  height: 293px;
+  margin-top: 120px;
+  color: #ffffff;
+}
+
+.hero-heading{
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.hero-text{
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 36px;
+}
+
+.hero-img{
+  width: 423px;
+  height: 504px;
+  margin-top: 19px;
+}
+
+h1{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.service{
+  width: 864px;
+  height: 200px;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.service:last-child{
+  margin-bottom: 0;
+}
+
+.sevice-img{
+  margin-right: 64px;
+}
+
+.service-title{
+  width: 650px;
+  height: 149px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.service-title-heading{
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.service-title-text{
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+
+.service-container .main-link{
+  margin-top: 35px;
+  margin-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.connect{
+  padding-top: 64px;
+  padding-bottom: 60px;
+  background-color: #0EB4C1;
+}
+
+.connect-heading{
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.social{
+  width: 448px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calling{
+  width: 192px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DE2E54;
+  opacity: 0.6;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.messenger{
+  width: 214px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+
+.logo a{
+  margin-left: 16px;
+}
+
+.footer-logo-text h2{
+  font-family: "Open sans", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.link{
+  background-color: #222;
+}
+
+.link-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footernav-item{
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-right: 32px;
+}
+
+.footernav-item:last-child{
+  margin-right: 0;
+}
+
+.footernav-link{
+  color: #ffffff;
 }
